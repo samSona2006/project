@@ -1,0 +1,59 @@
+@media screen and (max-width:440px) {
+
+
+
+    .titleB-about {
+        font-size: 150%;
+
+    }
+
+    .resp-about375 {
+        display: none;
+    }
+
+    .titleC-about {
+        width: 343px;
+        font-size: 112.5%;
+    }
+
+    .content-about-textA {
+        font-size: 100%;
+    }
+
+    .items-about {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-left: 54px;
+    }
+
+    .item-aboutC {
+        width: 265px;
+    }
+ 
+    .aboutSlide{
+        width: 370px;
+        overflow: hidden;
+    }
+
+    .about-item--img1 {
+        width: 240px;
+        height: 360px;
+    }
+    
+    .about-item--img2 {
+        width: 360px;
+        height: 240px;
+        padding: 32px;
+        margin-top: -30px;
+    }
+    
+    .about-item--img3 {
+        width: 240px;
+        height: 260px;
+        padding: 32px;
+        margin-top: -40px;
+    }
+
+}
