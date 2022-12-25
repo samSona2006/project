@@ -1,0 +1,191 @@
+<?php
+// Heading
+$_['heading_title']					 = 'PayPal (Powered by Braintree)';
+
+// Text
+$_['text_extension']		 		 = 'Ընդարձակում';
+$_['text_pp_braintree']				 = '<img src="view/image/payment/paypal.png" alt="PayPal (Powered by Braintree)" title="PayPal (Powered by Braintree)" style="border: 1px solid #EEEEEE;" />';
+$_['text_payment']					 = 'Վճարում';
+$_['text_success']					 = 'Դուք հաջողությամբ փոփոխել եք Braintree հաշվի տվյալներ։';
+$_['text_success_connect']			 = 'Դուք հաջողությամբ փոփոխել եք connected your PayPal (Powered by Braintree) account!';
+$_['text_edit']						 = 'Փոփոխել PayPal (Powered by Braintree)';
+$_['text_production']				 = 'Արտադրություն';
+$_['text_sandbox']					 = 'Sandbox';
+$_['text_currency']					 = 'Արժույթ';
+$_['text_immediate']				 = 'Անմիջապես';
+$_['text_deferred']					 = 'Հետաձգված';
+$_['text_merchant_account_id']		 = 'Վաճառողի հաշվի ID';
+$_['text_payment_info']				 = 'Վճարման ինֆորմացիա';
+$_['text_confirm_void']				 = 'Համոզվա՞ծ եք, որ ցանկանում եք զրոյացնել այս գործարքը:';
+$_['text_avs_response']				 = 'Փողոցի հասցե %s, Փոստային ինդեքս %s';
+$_['text_confirm_settle']			 = 'Վստահ եք, որ ցանկանում եք կարգավորել/capture';
+$_['text_confirm_refund']			 = 'Վստա՞հ եք, որ ցանկանում եք փոխհատուցել';
+$_['text_success_action']			 = 'Հաջողված';
+$_['text_error_settle']				 = 'Սխալ․ %s';
+$_['text_error_generic']			 = 'Սխալ․ Ձեր հարցման ժամանակ սխալ է տեղի ունեցել։';
+$_['text_na']						 = 'Հ/Հ';
+$_['text_all']						 = 'Բոլորը';
+$_['text_sale']						 = 'Վաճառք';
+$_['text_credit']					 = 'Կրեդիտ';
+$_['text_credit_card']				 = 'Կրեդիտ քարտ';
+$_['text_paypal']					 = 'PayPal';
+$_['text_enable_transactions']		 = 'Խնդրում ենք գործարկել Braintree- ը նախքան գործարքները դիտելը:';
+$_['text_yes']						 = 'Այո';
+$_['text_no']						 = 'Ոչ';
+$_['text_no_refund']				 = 'Փոխհատուցման պատմություն չկա';
+$_['text_app_connected']		     = 'Մոդուլը միացված է Braintree auth';
+$_['text_braintree']        		 = '<img width="100" src="https://s3-us-west-1.amazonaws.com/bt-partner-assets/paypal-braintree.png" alt="PayPal powered by Braintree" style="border: 1px solid #EEEEEE;">';
+$_['text_paypal_gold'] 				 = 'Ոսկեգույն';
+$_['text_paypal_blue'] 				 = 'Կապույտ';
+$_['text_paypal_silver'] 			 = 'Արծաթագույն';
+$_['text_paypal_tiny']		 		 = 'Շատ փոքր';
+$_['text_paypal_small']		 		 = 'Փոքր';
+$_['text_paypal_medium']		 	 = 'Միջին';
+$_['text_paypal_pill']		 		 = 'Շրջանաձև';
+$_['text_paypal_rectangular']		 = 'Ուղղանկյուն';
+$_['text_paypal_preview']		 	 = 'Կոճակի նախադիտում <br />Պահպանել փոփոխությունները դիտելու համար։';
+$_['text_braintree_learn']		 	 = 'Կրեդիտ/ դեատային քարտ և PayPal ընդունելու համար ,սեղմեք միանալ Braintree միջոցով։ <a href="https://www.braintreepayments.com/partners/learn-more" target="_blank">Իմանալ ավելին</a>';
+$_['text_3ds']		 	 			 = '3D անվտանգություն';
+$_['text_cvv']		 	 			 = 'CVV համար';
+$_['text_promotion_main']		 	 = 'Նախագծված է տարբեր մասշտաբների բիզնեսների համար ՝ փոքրից մինչև խոշոր ձեռնարկություն,կարող են հեշտությամբ ընդունել և մշակել վճարումները ՝ առավելագույնի հասցնելու բիզնեսի հնարավորությունները և եկամուտների աճը ՝ առանց նախադրյալների կամ ամսական վճարների:';
+$_['text_promotion_li_1']			 = 'PayPal- ի բոլոր առավելությունները, նաև քարտերի ընդունումը ձեր վճարման էջում';
+$_['text_promotion_li_2']			 = 'Արագ կազմաձևում և կարգավորում';
+$_['text_promotion_li_3']			 = 'Ձեռք բերեք PCI DSS v3.0 SAQ-A համապատասխանությունը `օգտագործելով հյուրընկալվող դաշտերը';
+$_['text_promotion_li_4']			 = 'Թույլ տվեք հաճախորդներին պահպանել քարտի տվյալները։';
+$_['text_learn_more']			 	 = '(Իմանալ ավելին)';
+$_['text_accept']			 	 	 = 'Ընդունել';
+$_['text_decline']			 	 	 = 'Մերժել';
+$_['text_merchant_connected']		 = 'Միացված վաճառողի ID: ';
+$_['text_enable_button']			 = 'Մենք առաջարկում ենք PayPal Express դյուրանցում ՝ առավելագույնը հասցնելու վճարման փոխարկումը, սա թույլ է տալիս հաճախորդներին օգտագործել իրենց PayPal հասցեների գիրքը և <strong> վճարումը զամբյուղի էջից երեքհպումով </ strong>: Սեղմեք միացման հնարավորությունը `Ընդարձակումը տեղադրելու և մակետի կառավարչին մուտք գործելու համար, դուք կկարողանաք ավելացնել«PayPal (Powered by Braintree) կոճակը» գործարկման մակետը։';
+$_['text_3ds_ssl']		 			 = '3D անվտանգությունը պահանջում է, որ խանութը օգտագործի SSL վկայագիր';
+$_['text_unlink']		 			 = 'Հեռացնել հղումը';
+
+// Column
+$_['column_void']					 = 'Զրոյացում';
+$_['column_settle']					 = 'համակարգում';
+$_['column_refund']					 = 'Փոխհատուցում';
+$_['column_transaction_id']			 = 'Գործարքի ID';
+$_['column_transaction_type']		 = 'Գործարքի  տեսակ';
+$_['column_transaction_date']		 = 'Գործարքի  ամսաթիվ';
+$_['column_merchant_account']		 = 'Վաճառողի հաշիվ';
+$_['column_payment_type']			 = 'Վճարման տեսակ';
+$_['column_order_id']				 = 'Պատվերի ID';
+$_['column_processor_code']			 = 'Պրոցեսորի նույնականացման կոդ';
+$_['column_cvv_response']			 = 'CVV պատասխան';
+$_['column_avs_response']			 = 'AVS պատասխան';
+$_['column_3ds_enrolled']			 = '3D անվտանգության գրանցում';
+$_['column_3ds_status']				 = '3D անվտանգության կարգավիճակ';
+$_['column_3ds_shifted']			 = '3D անվտանգության պատասխանատվության փոփոխություն';
+$_['column_3ds_shift_possible']		 = '3D պատասխանատվության փոփոխությունը հնարավոր է';
+$_['column_transaction_history']	 = 'Գործարքների կարգավիճակի պատմություն';
+$_['column_date']					 = 'Ամսաթիվ';
+$_['column_refund_history']			 = 'Փոխհատուցման պատմություն';
+$_['column_action']					 = 'Գործողություն';
+$_['column_amount']					 = 'Հաշիվ';
+$_['column_status']					 = 'Կարգավիճակ';
+$_['column_type']					 = 'Տեսակ';
+$_['column_customer']				 = 'Հաճախորդ';
+$_['column_order']					 = 'Պատվեր';
+$_['column_date_added']				 = 'Ավելացման ամսաթիվ';
+
+// Entry
+$_['entry_merchant_id']				 = 'Վաճառողի ID';
+$_['entry_public_key']				 = 'Հանրային բանալի';
+$_['entry_private_key']				 = 'Մասնավոր բանալի';
+$_['entry_environment']				 = 'Միջավայր';
+$_['entry_settlement_type']			 = 'Կարգավորման տեսակ';
+$_['entry_card_vault']				 = 'Ակտիվացնել քարտի պահպանումը';
+$_['entry_card_check_vault']		 = 'Քարտի պահպանման նախապես ստուգում';
+$_['entry_paypal_vault']			 = 'Ակտիվացնել PayPal պահպանումը';
+$_['entry_paypal_check_vault']		 = 'PayPal պահպանման նախապես ստուգում';
+$_['entry_vault_cvv_3ds']			 = 'Պահանջվու՞մ է CVV2 կամ 3D անվտանգություն։';
+$_['entry_debug']					 = 'Debug Logging';
+$_['entry_total']					 = 'Ընդհանուր';
+$_['entry_geo_zone']				 = 'Գեոգոտի';
+$_['entry_status']					 = 'Կարգավիճակ';
+$_['entry_sort_order']				 = 'Տեսակավորման կարգ';
+$_['entry_authorization_expired']	 = 'Լիազորության ժամանակի  ավարտ';
+$_['entry_authorized']				 = 'Լիազորված';
+$_['entry_authorizing']				 = 'Լիազորել';
+$_['entry_settlement_pending']		 = 'Կարգավորումը սպասման ռեժիմում է';
+$_['entry_failed']					 = 'Ձախողված';
+$_['entry_gateway_rejected']		 = 'Gateway մերժվել է';
+$_['entry_processor_declined']		 = 'Պրոցեսորը մերժվեց';
+$_['entry_settled']					 = 'Կարգավորված';
+$_['entry_settling']				 = 'Կարգավորման մեջ';
+$_['entry_submitted_for_settlement'] = 'ներկայացված է կարգավորման համար';
+$_['entry_voided']					 = 'Զրոյացված';
+$_['entry_transaction_id']			 = 'Գործարքի ID';
+$_['entry_transaction_type']		 = 'Գործարքի տեսակ';
+$_['entry_date_from']				 = 'Ամսաթիվ սկսած';
+$_['entry_date_to']					 = 'Ամսաթիվ մինչև';
+$_['entry_payment_type']			 = 'Վճարման տեսակ';
+$_['entry_card_type']				 = 'Քարտի տեսակ';
+$_['entry_amount_from']				 = 'Գումար սկսած';
+$_['entry_amount_to']				 = 'Գումար միչև';
+$_['entry_transaction_status']		 = 'Գործարքի կարգավիճակ';
+$_['entry_merchant_account_id']		 = 'Վաճառողի հաշվի ID';
+$_['entry_connection']		 		 = 'API մացման կարգավիճակ';
+$_['entry_paypal_option']		     = 'Ցուցադրել PayPal տարբերակ';
+$_['entry_paypal_button_colour']	 = 'Կոճակի գույն';
+$_['entry_paypal_button_shape']		 = 'Կոճակի տեսակ';
+$_['entry_paypal_button_size']		 = 'Կոճակի չափս';
+$_['entry_paypal_billing_agreement'] = 'Վճարման պայմանագրի նկարագրությունը';
+$_['entry_3ds_status']				 = 'Ակտիվացնել 3-D անվտանգություն';
+
+$_['entry_3ds_unsupported_card'] 		= 'Չաջակցված քարտ <br />հիմնական․ ընդունված';
+$_['entry_3ds_lookup_error'] 			= 'Փնտրման սխալ <br />հիմնական․ ընդունված';
+$_['entry_3ds_lookup_enrolled'] 		= 'Որոնումը գրանցված է <br />հիմնական․ ընդունված';
+$_['entry_3ds_lookup_not_enrolled'] 	= 'Որոնումը գրանցված չէ <br />հիմնական․ ընդունված';
+$_['entry_3ds_not_participating'] 		= 'Հաջողված է, թողարկողը չի մասնակցում<br />հիմնական․ ընդունված';
+$_['entry_3ds_unavailable'] 			= 'Անհասանելի է<br />հիմնական․ ընդունված';
+$_['entry_3ds_signature_failed'] 		= 'Ստորագրության ստուգումը ձախողվեց<br />հիմնական․ ընդունված';
+$_['entry_3ds_successful'] 				= 'Հաջողված վավերացում <br />հիմնական․ ընդունված';
+$_['entry_3ds_attempt_successful'] 		= 'Վավերացման փորձը հաջող էր<br />հիմնական․ ընդունված';
+$_['entry_3ds_failed'] 					= 'Վավերացման ձախողված <br />հիմնական․ մերժված';
+$_['entry_3ds_unable_to_auth'] 			= 'Հնարավոր չէ վավերացնել <br />հիմնական․ ընդունված';
+$_['entry_3ds_error'] 					= 'Վավերացման սխալ<br />հիմնական․ ընդունված';
+
+// Help
+$_['help_settlement_type']			 	= 'Անմիջապես կներկայացվի կարգավորմանը: Հետաձգված գործարքը կդիտարկվի լիազորված, և վաճառականը պետք է ձեռքով ներկայացնի  պատվերի մանրամասները  OpenCart- ի կարգավորման համար:';
+$_['help_card_vault']				 	= 'Թույլատրել հաճախորդին հիշել իրենց քարտը';
+$_['help_paypal_vault']				 	= 'Թույլատրել հաճախորդին հիշել PayPal հաշվը';
+$_['help_card_check_vault']			 	= 'checkbox քարտի պահպանման համար արդեն ստուգված է, երբ էջը բեռնում է։';
+$_['help_paypal_check_vault']		 	= 'checkbox  PayPal պահպանման համար արդեն ստուգված է, երբ էջը բեռնում է։';
+$_['help_vault_cvv_3ds']			 	= 'Սա կպահանջի հաճախորդներից, որոնք օգտագործում են  պահպանված քարտը, անհրաժեշտ է կրկին մուտքագրել CVV2 համարը կամ օգտագործելու 3D անվտանգությունը: Հնարավոր չէ միանգամից երկու տարբերակները միացնել պահպանված քարտի համար։';
+$_['help_debug']					 	= 'Ակտիվացնելով սխալի կարգաբերումը հնարավորություն կտա տվյալներ մուտքագրել ֆայլի վրա: Դուք պետք է ապաակտիվացնեք, եթե այլ բան հրահանգված չէ։'
+$_['help_total']					 	= 'Վճարման ընդհանուր գումարը, որը պետք է լինի պատվերը, պետք է հասնի մինչև վճարման այս եղանակը ակտիվանա։';
+$_['help_paypal_option']			 	= 'Եթե ունեք ձեր PayPal հաշիվը կապված Braintree- ի հետ, կարող եք նաև ցուցադրել PayPal վճարման տարբերակը։';
+$_['help_paypal_billing_agreement']	 	= 'Կարող եք ավելացնել վճարման պայմանագրի նկարագրությունը, որը կցուցադրվի PayPal- ի պատուհանում օգտագործողներին ՝ իրենց PayPal հաշիվը պահպանելու ժամանակ:';
+
+// Button
+$_['button_void']					 	= 'Զրոյացնել';
+$_['button_settle']					 	= 'Կարգավորել';
+$_['button_refund']					 	= 'Փոխհատուցել';
+$_['button_filter']					 	= 'Զտել';
+
+// Error
+$_['error_permission']				 	= 'Ուշադրություն․ Դուք չունեք թույլտվություն փոփոխելու Braintree վճարումը։';
+$_['error_php_version']				 	= ' PHP 5.4.0  նվազագույն տարբերակը պարդադիր է։';
+$_['error_merchant_id']				 	= 'Վաճառողի ID-ին պարտադիր է։';
+$_['error_public_key']				 	= 'Հանրային բանալին պարտադիր է։';
+$_['error_private_key']				 	= 'Մասնավոր բանալին պարտադիր է։';
+$_['error_connection']				 	= 'Braintree API- ին կապ հաստատելու խնդիր առաջացավ: Խնդրում ենք ստուգել ձեր վաճառողի ID- ն, հանրային բանալին, մասնավոր բանալին և շրջակա միջավայրի կարգավորումները:';
+$_['error_account']					 	= 'Մուտքագրեք  վաճառողի վավեր հաշիվ ID, ինչպես նշված է ձեր Braintree հաշվում';
+$_['error_warning']					 	= 'Ուշադրություն․ Խնդրում ենք ստուգել սխալների առակայությունը։';
+$_['error_3ds_not_ready']			 	= 'Դուք միացրել եք 3D անվտանգ, սակայն ձեր Braintree հաշիվը կազմաձևված չէ, խնդրում ենք ստուգել ձեր <a href="https://www.braintreegateway.com/login" title="Braintree login" target="_blank">Braintree  կառավարման վահանակ</a> կամ կապ հաստատեք Braintree աջակցության կենտրոնի հետ։';
+$_['error_paypal_not_ready']		 	= 'Դուք միացրել եք PayPal- ը, սակայն ձեր Braintree հաշիվը կազմաձևված չէ, խնդրում ենք ստուգել ձեր <a href="https://www.braintreegateway.com/login" title="Braintree login" target="_blank">Braintree կառավարման վահանակ</a> կամ կապ հաստատեք Braintree աջակցության կենտրոնի հետ։';
+$_['error_paypal_billing_not_ready'] 	= 'Դուք միացրել եք PayPal- ի պահոցների / վճարումների պայմանագրերը, սակայն ձեր Braintree հաշիվը կազմաձևված չէ, խնդրում ենք ստուգել ձեր <a href="https://www.braintreegateway.com/login" title="Braintree login" target="_blank">կառավարման վահանակ</a> կամ կապ հաստատեք Braintree աջակցության կենտրոնի հետ։';
+$_['error_braintree_account_3ds'] 	 	= '3D անվտանգությունը առայժմ միացված չէ ձեր Braintree հաշվում, այնուամենայնիվ այն հասանելի չէ բոլոր երկրների համար: Խնդրում ենք ստուգել ձեր <a href="https://www.braintreegateway.com/login" title="Braintree login" target="_blank">կառավարման վահանակ</a> կամ կապ հաստատեք Braintree աջակցության կենտրոնի հետ։';
+$_['error_braintree_account_paypal'] 	= 'PayPal առայժմ միացված չէ ձեր Braintree հաշվում։ Խնդրում ենք ստուգել ձեր  <a href="https://www.braintreegateway.com/login" title="Braintree login" target="_blank">կառավարման վահանակ</a> կամ կապ հաստատեք Braintree աջակցության կենտրոնի հետ։';
+$_['error_braintree_account_billing']	= 'Վճարման պայմանագրերը առայժմ միացված չէ ձեր Braintree հաշվում։  Խնդրում ենք ստուգել ձեր <a href="https://www.braintreegateway.com/login" title="Braintree login" target="_blank">կառավարման վահանակ</a> կամ կապ հաստատեք Braintree աջակցության կենտրոնի հետ։';
+$_['error_environment']					= 'Դուք չեք կարող Ձեր միաջավայրը սահմանել %s երբ ձեր հավատարմագրերը նախատեսված են %s  Braintree միաջավայրի համար։';
+
+// Tab
+$_['tab_setting']					 	= 'Կարգավորումներ';
+$_['tab_currency']					 	= 'Արժույթներ';
+$_['tab_order_status']				 	= 'Պատվերի կարգավիճակներ (նոր պատվերներ)';
+$_['tab_3ds']						 	= '3-D անվտանգություն';
+$_['tab_transaction']				 	= 'Գործարքի որոնում';
+$_['tab_vault']				 	 	 	= 'Պահոց';
+$_['tab_paypal']				 	 	= 'PayPal';

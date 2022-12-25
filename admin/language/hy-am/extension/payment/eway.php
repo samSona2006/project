@@ -1,0 +1,172 @@
+<?php
+// Heading
+$_['heading_title']                = 'eWAY վճարում';
+// Text
+$_['text_extension']               = 'Ընդարձակումներ';
+$_['text_success']                 = 'Դուք հաջողությամբ փոփոխել եք eWAY details!';
+$_['text_edit']                    = 'ՓոփոխելeWAY';
+$_['text_eway']                    = '<a target="_BLANK" href="http://www.eway.com.au/"><img src="view/image/payment/eway.png" alt="eWAY" title="eWAY" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_authorisation']           = 'Ավտորիզացիա';
+$_['text_sale']                    = 'Վաճառք';
+$_['text_transparent']             = 'Transparent Redirect (վճարում կայքից)';
+$_['text_iframe']                  = 'IFrame (վճարում պատուհանից)';
+$_['text_connect_eway']            = 'eWAY օգնում է բիզնեսին ՝ ապահով կերպով մշակել բոլոր հիմնական վարկային քարտերը ՝ ներկառուցված խարդախության կանխարգելմամբ, 24/7 տեխնիկական աջակցությամբ եւ այլն: <a target="_blank" href="https://myeway.force.com/success/accelerator- signup?pid=4382&pa=0012000000ivcWf">Սեղմել այստեղ</a>';
+
+$_['text_eway_image']              = '<a target="_blank" href="https://myeway.force.com/success/accelerator-
+signup?pid=4382&pa=0012000000ivcWf"><img src="view/image/payment/eway_connect.png" alt="eWAY" title="eWAY" class="img-
+fluid" /></a>';
+
+// Entry
+$_['entry_paymode']                = 'Վճարման ռեժիմ';
+$_['entry_test']                   = 'Թեստային ռեժիմ';
+$_['entry_order_status']           = 'Պատվերի կարգավիճակ';
+$_['entry_order_status_refund']    = 'Փոխհատուցման պատվերի կարգավիճակ';
+$_['entry_order_status_auth']      = 'Նույնականացված պատվերի կարգավիճակ';
+$_['entry_order_status_fraud']     = 'Կասկածելի խարդախության պատվերի կարգավիճակը';
+$_['entry_status']                 = 'Կարգավիճակ';
+$_['entry_username']               = 'eWAY API բանալի';
+$_['entry_password']               = 'eWAY գաղտնաբառ';
+$_['entry_payment_type']           = 'Վճարման տեսակ';
+$_['entry_geo_zone']               = 'Գեոգոտի';
+$_['entry_sort_order']             = 'Sեսակավորման կարգ';
+$_['entry_transaction_method']     = 'Գործարքի մեթոդ';
+
+// Error
+$_['error_permission']             = 'Ուշադրություն. Դուք չունեք թույլտվություն փոփոխելու eWAY վճարման մոդուլը';
+$_['error_username']               = 'eWAY API բանալին պարտադիր է';
+$_['error_password']               = 'eWAY գաղտնաբառը պարտադիր է';
+$_['error_payment_type']           = 'Վճարման նվազագույն մեկ տեսակ պարտադիր է';
+
+// Help hints
+$_['help_testmode']                = 'Սահմանել ԱՅՈ eWAY Sandbox օգտագործելու համար։';
+$_['help_username']                = 'Ձեր eWAY API բանալին MYeWAY հաշվից։';
+$_['help_password']                = 'Ձեր eWAY API գաղտնաբառը MYeWAY հաշվից։';
+$_['help_transaction_method']      = 'Ավտորիզացիան հասանելի է միայն Ավստրալական բանկերից։';
+
+// Order page - payment tab
+$_['text_payment_info']            = 'Վճարման ինֆորմացիա';
+$_['text_order_total']             = 'Ընդհանուր ավտորիզացված';
+$_['text_transactions']            = 'Գործարքներ';
+$_['text_column_transactionid']    = 'eWAY գործարքի ID';
+$_['text_column_amount']           = 'Հաշիվ';
+$_['text_column_type']             = 'Տեսակ';
+$_['text_column_created']          = 'Ստեղծված';
+$_['text_total_captured']          = 'Ընդհանուր captured';
+$_['text_capture_status']          = 'Վճարումը captured';
+$_['text_void_status']             = 'Վճարումը զրոյացված է';
+$_['text_refund_status']           = 'Վճարումը փոխհատուցված է';
+$_['text_total_refunded']          = 'Ընդհանուր փոխհատուցված';
+$_['text_refund_success']          = 'Փոխհատուցումը հաջողությամբ կատարվել է';
+$_['text_capture_success']         = 'Capture հաջողությամբ կատարվել է';
+$_['text_refund_failed']           = 'Փոխհատուցումը ձախողվել է ';
+$_['text_capture_failed']          = 'Capture ձախողվել է ';
+$_['text_unknown_failure']         = 'Անվավեր պատվեր կամ հաշիվ';
+$_['text_confirm_capture']         = 'Դուք համոզվա՞ծ եք, որ ցանականում եք capture վճարումը։';
+$_['text_confirm_release']         = 'Դուք համոզվա՞ծ եք, որ ցանականում եք թողարկել վճարումը։';
+$_['text_confirm_refund']          = 'Դուք համոզվա՞ծ եք, որ ցանականում եք փոխհատուցել վճարումը։';
+$_['text_empty_refund']            = 'Խնդրում ենք մուտքագրել փոխհատուցման գումարը։';
+$_['text_empty_capture']           = 'Խնդրում ենք մուտքագրել capture գումարը։';
+$_['btn_refund']                   = 'Փոխհատուցել';
+$_['btn_capture']                  = 'Capture';
+
+// Validation Error codes
+$_['text_card_message_V6000']= 'Անավարտ վավերացման սխալ';
+$_['text_card_message_V6001'] = 'Հաճախորդի անվավեր IP';
+$_['text_card_message_V6002'] = 'Անվավեր սարքի ID';
+$_['text_card_message_V6011'] = 'Անվավեր գումար';
+$_['text_card_message_V6012'] = 'Անվավեր ինվոյսային նկարագրություն';
+$_['text_card_message_V6013'] = 'Անվավեր ինվոյսային համար';
+$_['text_card_message_V6014'] = 'Անվավեր ինվոյսային հղում';
+$_['text_card_message_V6015'] = 'Անվավեր արժույթի ծածկագիր';
+$_['text_card_message_V6016'] = 'Վճարումը պարտադիր է';
+$_['text_card_message_V6017'] = 'Վճարման արժույթի ծածկագիրը պարտադիր է';
+$_['text_card_message_V6018'] = 'Անհայտ վճարման արժույթի ծածկագիր';
+$_['text_card_message_V6021'] = 'Քարտապանի անունը պարտադիր է';
+$_['text_card_message_V6022'] = 'Քարտի համարը պարտադիր է';
+$_['text_card_message_V6023'] = 'CVN պարտադիր է';
+$_['text_card_message_V6031'] = 'Անվավեր քարտի համար';
+$_['text_card_message_V6032'] = 'Անվավեր CVN';
+$_['text_card_message_V6033'] = 'Անվավեր ավարտի ժամկետ';
+$_['text_card_message_V6034'] = 'Անվավեր թողարկման համար';
+$_['text_card_message_V6035'] = 'Անվավեր սկսման ամսաթիվ';
+$_['text_card_message_V6036'] = 'Անվավեր ամիս';
+$_['text_card_message_V6037'] = 'Անվավեր տարի';
+$_['text_card_message_V6040'] = 'Անվավեր տոքեն, Հաճախորդի Id';
+$_['text_card_message_V6041'] = 'Հաճախորդը պարտադիր է';
+$_['text_card_message_V6042'] = 'Հաճախորդի անունը պարտադիր է';
+$_['text_card_message_V6043'] = 'Հաճախորդի ազգանունը պարտադիր է';
+$_['text_card_message_V6044'] = 'Հաճախորդի երկրի կոդը պարտադիր է';
+$_['text_card_message_V6045'] = 'Հաճախորդի վերնագիրը պարտադիր է';
+$_['text_card_message_V6046'] = 'Տոքեն հաճախորդի ID պարտադիր է';
+$_['text_card_message_V6047'] = 'Վերահղման URL պարտադիր է';
+$_['text_card_message_V6051'] = 'Անվավեր անուն';
+$_['text_card_message_V6052'] = 'Անվավեր ազգանուն';
+$_['text_card_message_V6053'] = 'Անվավեր երկրի կոդ';
+$_['text_card_message_V6054'] = 'Անվավեր էլեկտրոնային հասցե';
+$_['text_card_message_V6055'] = 'Անվավեր հեռախոսահամար';
+$_['text_card_message_V6056'] = 'Անվավեր բջջային հեռախոսահամար';
+$_['text_card_message_V6057'] = 'Անվավեր ֆաքս';
+$_['text_card_message_V6058'] = 'Անվավեր վերնագիր';
+$_['text_card_message_V6059'] = 'Վերահղման անվավեր URL ';
+$_['text_card_message_V6060'] = 'Վերահղման անվավեր URL ';
+$_['text_card_message_V6061'] = 'Անվավեր հղում';
+$_['text_card_message_V6062'] = 'Անվավեր ընկերության անվանում';
+$_['text_card_message_V6063'] = 'Անվավեր աշխատանքի նկարագրություն';
+$_['text_card_message_V6064'] = 'Անվավեր փողոց 1';
+$_['text_card_message_V6065'] = 'Անվավեր փողոց 2';
+$_['text_card_message_V6066'] = 'Անվավեր քաղաք';
+$_['text_card_message_V6067'] = 'Անվավեր երկիր';
+$_['text_card_message_V6068'] = 'Անվավեր փոստային ծածկագիր';
+$_['text_card_message_V6069'] = 'Անվավեր էլեկտրոնային հասցե';
+$_['text_card_message_V6070'] = 'Անվավեր հեռախոսահամար';
+$_['text_card_message_V6071'] = 'Անվավեր բջջային հեռախոսահամար';
+$_['text_card_message_V6072'] = 'Անվավեր մեկնաբանություններ';
+$_['text_card_message_V6073'] = 'Անվավեր ֆաքս';
+$_['text_card_message_V6074'] = 'Անվավեր Url';
+$_['text_card_message_V6075'] = 'Անվավեր առաքման հասցե անուն';
+$_['text_card_message_V6076'] = 'Անվավեր առաքման հասցե ազգանուն';
+$_['text_card_message_V6077'] = 'Անվավեր առաքման հասցե փողոց 1';
+$_['text_card_message_V6078'] = 'Անվավեր առաքման հասցե փողոց 2';
+$_['text_card_message_V6079'] = 'Անվավեր առաքման հասցե քաղաք';
+$_['text_card_message_V6080'] = 'Անվավեր առաքման հասցե երկիր';
+$_['text_card_message_V6081'] = 'Անվավեր առաքման հասցե փոստային ինդեքս';
+$_['text_card_message_V6082'] = 'Անվավեր առաքման հասցե էլեկտրոնային հասցե';
+$_['text_card_message_V6083'] = 'Անվավեր առաքման հասցե հեռախոսահամար';
+$_['text_card_message_V6084'] = 'Անվավեր առաքման հասցե երկիր';
+$_['text_card_message_V6091'] = 'Անհայտ երկիր կոդ';
+$_['text_card_message_V6100'] = 'Անվավեր քարտի անուն';
+$_['text_card_message_V6101'] = 'Անվավեր քարտի ժամկետի ավարտի ամիս';
+$_['text_card_message_V6102'] = 'Անվավեր քարտի ժամկետի ավարտի տարի';
+$_['text_card_message_V6103'] = 'Անվավեր քարտի սկսման ամսաթիվ';
+$_['text_card_message_V6104'] = 'Անվավեր քարտի սկսման տարի';
+$_['text_card_message_V6105'] = 'Անվավեր քարտի թողարկման համար';
+$_['text_card_message_V6106'] = 'Անվավեր քարտի CVN';
+$_['text_card_message_V6107'] = 'Անվավեր մուտքային կոդ';
+$_['text_card_message_V6108'] = 'Անվավեր հաճախորդի հոսթի հասցե';
+$_['text_card_message_V6109'] = 'Անվավեր օգտատեր';
+$_['text_card_message_V6110'] = 'Անվավեր քարտի համար';
+$_['text_card_message_V6111'] = 'Չավտորիզացված API մուտք, հաշիվը PCI հավատարմագրված չէ';
+$_['text_card_message_V6112'] = 'Քարտի հավելյալ մանրամասներ, բացառությամբ վավերականության տարվա եւ ամսվա։';
+$_['text_card_message_V6113'] = 'Անվավեր փոխհատուցման գործարք';
+$_['text_card_message_V6114'] = 'Gateway վավերացման սխալ';
+$_['text_card_message_V6115'] = 'Անվավեր ուղիղ փոխհատուցման հարցում, գործարքի ID';
+$_['text_card_message_V6116'] = 'Անվավեր քարտի տվյալներ օրիգինալ գործարքի ID';
+$_['text_card_message_V6124'] = 'Անվավեր ապրանքների դիրքեր։ Ապրանքները տրամադրվել են, սակայն ընդհանուր գումարը չի  համապատասխանում ընդհանուր հաշիվ դաշտին։';
+$_['text_card_message_V6125'] = 'Վճարման ընտրված տեսակը ակտիվ չէ';
+$_['text_card_message_V6126'] = 'Անվավեր կոդավորված քարտի համար, գաղտնագրումը ձախողվեց։';
+$_['text_card_message_V6127'] = 'Անվավեր ոդավորված cvn- ն, գաղտնագրումը ձախողվեց։';
+$_['text_card_message_V6128'] = 'Անվավեր մեթոդ վճարմնա տեսակի համար';
+$_['text_card_message_V6129'] = 'Գործարքը չի հաստատվել Capture/Չեղարկման համար։';
+$_['text_card_message_V6130'] = 'Հաճախորդների տեղեկատվության ընդհանուր սխալ';
+$_['text_card_message_V6131'] = 'Առաքման ընդհանուր սխալ';
+$_['text_card_message_V6132'] = 'Գործարքն արդեն ավարտվել կամ դադարեցվել է, գործողությունը թույլատրված չէ';
+$_['text_card_message_V6133'] = 'Վճարը հասանելի չէ վճարման տեսակի համար';
+$_['text_card_message_V6134'] = 'Անվավեր ավտորիզացված գործարքի ID Capture/զրոյացման համար։';
+$_['text_card_message_V6135'] = 'PayPal Սխալը փոխհատուցման գործընթացի ժամանակ';
+$_['text_card_message_V6140'] = 'Վաճառողի հաշիվը կասեցված է';
+$_['text_card_message_V6141'] = 'Անվավեր PayPal հաշվի տվյալներ կամ API ստորագրություն';
+$_['text_card_message_V6142'] = 'Թույլտվությունը հասանելի չէ բանկին/մասնաճյուղին';
+$_['text_card_message_V6150'] = 'Անվավեր փոխհատուցման գումար';
+$_['text_card_message_V6151'] = 'Փոխհատուցման գումարը ավելի մեծ է քան գործարքի հաշիվը։';
+$_['text_card_message_D4406'] = 'Անհայտ սխալ';
+$_['text_card_message_S5010'] = 'Անհայտ սխալ';

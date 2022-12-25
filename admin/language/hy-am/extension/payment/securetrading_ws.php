@@ -1,0 +1,108 @@
+<?php
+$_['heading_title']                              = 'Secure Trading վեբ ծառայություն';
+
+$_['tab_settings']                               = 'Կարգավորումներ';
+$_['tab_myst']                                   = 'MyST';
+
+$_['text_securetrading_ws']                      = '<a href="http://www.securetradingfs.com/partner/open-cart/" target="_blank"><img src="view/image/payment/secure_trading.png" alt="Secure Trading" title="Secure Trading" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_extension']                             = 'Ընդարձակումներ';
+$_['text_all_geo_zones']                         = 'Բոլոր գեոգոտիները';
+$_['text_process_immediately']                   = 'Ընթացք տալ անմիջապես';
+$_['text_wait_x_days']                           = 'Սպասել %d օր';
+$_['text_wait']                                  = 'Խնդրում ենք սպասել';
+$_['text_authorisation_reversed']                = 'Վավերացումը հաջողությամբ փոխվեց';
+$_['text_refund_issued']                         = 'Փոխհատուցումը հաջողությամբ կատարվեց';
+$_['text_success']                               = 'Դուք հաջողությամբ փոփոխել եք Secure Trading վեբ ծառայություն մոդուլը';
+$_['text_pending_settlement']                    = 'Սպասմաբ ռեժի';
+$_['text_manual_settlement']                     = 'Ձեռքով կարգավորում';
+$_['text_suspended']                             = 'Կասեցված';
+$_['text_cancelled']                             = 'Չեղարկված';
+$_['text_settling']                              = 'Կարգավորում';
+$_['text_settled']                               = 'Կարգավորված';
+$_['text_no_transactions']                       = 'Ցուցադրելու համար գործարքներ չկան';
+$_['text_ok']                                    = 'Ok';
+$_['text_denied']                                = 'Մերժված';
+$_['text_pending_settlement_manually_overriden'] = 'Սպասման կարգավորում, չեղարկված ձեռքով';
+$_['text_pending_suspended']                     = 'Կասեցված';
+$_['text_pending_settled']                       = 'Կարգավորված';
+$_['text_payment_info']                          = 'Վճարման ինֆորմացիա';
+$_['text_release_status']                        = 'Վճարման ավարտ';
+$_['text_void_status']                           = 'Հակադարձ վավերացում';
+$_['text_rebate_status']                         = 'Փոխհատուցված վճարում';
+$_['text_order_ref']                             = 'Պատվերի հղում';
+$_['text_order_total']                           = 'Ընդհանուր վավերացված';
+$_['text_total_released']                        = 'Ընդհանուր ավարտված';
+$_['text_transactions']                          = 'Գործարքներ';
+$_['text_column_amount']                         = 'Գումար';
+$_['text_column_type']                           = 'Տեսակ';
+$_['text_column_created']                        = 'Ստեղծված';
+$_['text_release_ok']                            = 'Թողարկումը հաջողված էր';
+$_['text_release_ok_order']                      = 'Թողարկումը հաջողված էր, պատվերի կարգավիճակը թարմացված է հաջողված - կարգավորված';
+$_['text_rebate_ok']                             = 'Փոխհատուցումը հաջողված էր';
+$_['text_rebate_ok_order']                       = 'Փոխհատուցումը հաջողված էր, պատվերի կարգավիճակը թարմացված է փոխհատուցվածի';
+$_['text_void_ok']                               = 'Զրոյացումը հաջողված էր, պատվերի կարգավիճակը թարմացված է զրոյացվածի';
+$_['text_confirm_void']                          = 'Դուք համոզվա՞ծ եք, որ ցանկանում եք չեղարկել վավերացումը։';
+$_['text_confirm_release']                       = 'Դուք համոզվա՞ծ եք, որ ցանկանում եք ավարտել վճարումը։';
+$_['text_confirm_rebate']                        = 'Դուք համոզվա՞ծ եք, որ ցանկանում եք փոխհատուցել վճարումը։';
+
+$_['entry_site_reference']                       = 'Վեբ կայքի հղում';
+$_['entry_username']                             = 'Օգտատեր';
+$_['entry_password']                             = 'Գաղտնաբառ';
+$_['entry_csv_username']                         = 'CSV Օգտատեր';
+$_['entry_csv_password']                         = 'CSV Գաղտնաբառ';
+$_['entry_3d_secure']                            = 'Օգտագործել 3D անվտանգությունը';
+$_['entry_cards_accepted']                       = 'Ընդունված քարտեր';
+$_['entry_order_status']                         = 'Պատվերի կարգավիճակ';
+$_['entry_failed_order_status']                  = 'Ձախողված պատվերի կարգավիճակ';
+$_['entry_declined_order_status']                = 'Մերժված պատվերի կարգավիճակ';
+$_['entry_refunded_order_status']                = 'Փոխհատուցված պատվերի կարգավիճակ';
+ 
+$_['entry_authorisation_reversed_order_status']  = 'Հակադարձ պատվերի վավերացում';
+$_['entry_settle_status']                        = 'Կարգավորման կարգավիճակ';
+$_['entry_settle_due_date']                      = 'Պարտավորվածության ժամկետը'; 
+$_['entry_geo_zone']                             = 'Գեոգոտի';
+$_['entry_sort_order']                           = 'Տեսակավորման կարգ';
+$_['entry_status']                               = 'Կարգավիճակ';
+$_['entry_total']                                = 'Ընդհանուր';
+$_['entry_reverse_authorisation']                = 'Հակադարձ վավերացում';
+$_['entry_refunded']                             = 'Փոխհատուցված';
+$_['entry_refund']                               = 'Փոխհատուցում (%s):';
+$_['entry_currency']                             = 'Արժույթ';
+$_['entry_status_code']                          = 'Սխալի կոդ';
+$_['entry_payment_type']                         = 'Վճարման տեսակ';
+$_['entry_request']                              = 'Հարցում';
+$_['entry_date_from']                            = 'Ամսաթիվ սկսած';
+$_['entry_date_to']                              = 'Ամսաթիվ մինչև';
+$_['entry_hour']                                 = 'Ժամ';
+$_['entry_minute']                               = 'Րոպե';
+
+$_['column_order_id']                            = 'Պատվերի ID';
+$_['column_transaction_reference']               = 'Գործարքի հղում';
+$_['column_customer']                            = 'Հաճախորդ';
+$_['column_total']                               = 'Ընդհանուր';
+$_['column_currency']                            = 'Արժույթ';
+$_['column_settle_status']                       = 'Կարգավորել կարգավիճակը';
+$_['column_status']                              = 'Կարգավիճակ';
+$_['column_type']                                = 'Տեսակ';
+$_['column_payment_type']                        = 'Վճարման տեսակ';
+
+$_['error_permission']                           = 'Դուք չունեք թույլտվություն փոփոխելու այս մոդուլը';
+$_['error_site_reference']                       = 'Կայքի հղումը պարտադիր է';
+$_['error_cards_accepted']                       = 'Ընդունված քարտերը պարտադիր են';
+$_['error_username']                             = 'Օգտատերը պարտադիր է';
+$_['error_password']                             = 'Գաղտնաբառը պարտադիր է';
+$_['error_connection']                           = 'Անհնար է միանալ Secure Trading';
+$_['error_data_missing']                         = 'Տվյալները բացակայում են';
+
+$_['help_refund']                                = 'Խնդրում ենք ներառել տասնորդական կետը և գումարի տասնորդական մասը';
+$_['help_csv_username']                          = 'Գործարքի ներբեռնման ծառայության անուն';
+$_['help_csv_password']                          = 'Գործարքի ներբեռնման ծառայության գաղտնաբառ';
+$_['help_total']                                 = 'Վճարման ընդհանուր գումարը, որը պետք է լինի պատվերը, պետք է հասնի մինչեւ վճարման այս եղանակը ակտիվանա։';
+
+$_['button_reverse_authorisation']               = 'Հակադարձ վավերացում';
+$_['button_refund']                              = 'Փոխհատուցում';
+$_['button_show']                                = 'Ցուցադրել';
+$_['button_download']                            = 'Ներբեռնել';
+$_['button_release']                             = 'Ավարտել';
+$_['button_rebate']                              = 'Փոխհատուցում / վերադարձ';
+$_['button_void']                                = 'Հակադարձ վավերացում';
